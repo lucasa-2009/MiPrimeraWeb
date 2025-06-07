@@ -1,0 +1,23 @@
+main h3{
+    font-family: "poppins", sans-serif;
+    font-weight: bold;
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mapa iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 60vh;
+    border: 0;
+}
+
+@media (max-width: 600px) {
+    .mapa iframe {
+    height: 300px;
+    }
+}
